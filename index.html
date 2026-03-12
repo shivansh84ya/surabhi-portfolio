@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surabhi Chourasia — Copywriter & Brand Storyteller</title>
+  <meta name="description" content="Surabhi Chourasia — Copywriter, Creative Strategist & Brand Storyteller. 3+ years, 15+ brands, multi-industry." />
+  <meta property="og:title" content="Surabhi Chourasia — Copywriter & Brand Storyteller" />
+  <meta property="og:description" content="The right words don't just communicate — they influence." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Page transition overlay -->
+<div class="page-transition" aria-hidden="true"></div>
+
+<!-- Navbar -->
+<nav class="navbar" aria-label="Main navigation">
+  <div class="container">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo">SC<span>.</span></a>
+      <ul class="navbar__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="navbar__actions">
+        <button class="theme-toggle" aria-label="Toggle dark mode"></button>
+        <a href="contact.html" class="btn-cta">Let's Talk</a>
+        <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" role="dialog" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="blog.html">Blog</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- Hero -->
+<section class="hero" aria-label="Hero section">
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero__fallback" aria-hidden="true"></div>
+  <div class="hero__doodles" aria-hidden="true">
+    <svg class="doodle doodle--flower" viewBox="0 0 140 140" fill="none">
+      <path d="M20 110C20 60 52 30 96 30C119 30 126 35 126 35" />
+      <path d="M16 96C22 88 34 82 48 82H126" />
+      <path d="M18 122H118" />
+    </svg>
+    <svg class="doodle doodle--smile" viewBox="0 0 140 90" fill="none">
+      <path d="M10 68H132" />
+      <path d="M24 50C37 38 56 32 73 32C90 32 108 38 120 50" />
+      <path d="M44 22H56M84 22H96" />
+    </svg>
+    <svg class="doodle doodle--quote" viewBox="0 0 120 120" fill="none">
+      <path d="M38 35C26 42 22 52 24 65H42V85H24V67C24 54 30 43 42 35H38Z" />
+      <path d="M82 35C70 42 66 52 68 65H86V85H68V67C68 54 74 43 86 35H82Z" />
+    </svg>
+    <svg class="doodle doodle--spark" viewBox="0 0 100 100" fill="none">
+      <rect x="18" y="18" width="64" height="64" rx="10" />
+      <path d="M30 34H70M30 50H58M30 66H64" />
+    </svg>
+    <svg class="doodle doodle--pen" viewBox="0 0 180 80" fill="none">
+      <path d="M8 60H66L146 12L162 28L82 76H8V60Z" />
+      <path d="M146 12L162 28M66 60L82 76" />
+      <path d="M98 44L128 24" />
+    </svg>
+  </div>
+  <div class="container">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Available for Projects</p>
+      <h1>Surabhi<br /><em>Chourasia</em></h1>
+      <p class="hero__subtitle">Copywriter · Content Strategist · Brand Storyteller</p>
+      <p class="hero__desc">
+        I craft words that do more than communicate —&nbsp;<strong>they drive action.</strong>
+        Over the last 3+ years, I've partnered with 15+ brands to build distinctive voices,
+        shape campaign narratives, and create content that balances
+        creativity with measurable results.
+      </p>
+      <div class="hero__actions">
+        <a href="projects.html" class="btn btn--primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+          View My Work
+        </a>
+        <a href="contact.html" class="btn btn--outline">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          Contact Me
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="hero__scroll" aria-hidden="true">
+    <!-- <span>Scroll</span> -->
+    <div class="hero__scroll-line"></div>
+  </div>
+</section>
+
+<!-- Stats bar -->
+<div class="stats-bar" aria-label="Key stats">
+  <div class="container">
+    <div class="stats-bar__inner">
+      <div class="stat-item reveal">
+        <div class="stat-item__number">3<span>+</span></div>
+        <div class="stat-item__label">Years Experience</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-item__number">15<span>+</span></div>
+        <div class="stat-item__label">Brands Served</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-item__number">1.9<span>M+</span></div>
+        <div class="stat-item__label">Ad Views Generated</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-item__number">6<span>+</span></div>
+        <div class="stat-item__label">Industries</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About Preview -->
+<section class="section about-preview">
+  <div class="container">
+    <div class="about-preview__grid">
+      <div class="about-preview__image-wrap reveal">
+        <img src="assets/images/markabout.jpeg" alt="Surabhi Chourasia portrait" class="about-preview__img" />
+        <div class="quote-bubble">"Not just a Copywriter. A Communication Thinker."</div>
+      </div>
+      <div class="about-preview__text">
+        <div class="section-header">
+          <p class="section-header__eyebrow">A Little About Me</p>
+          <h2>Hi, I'm <em style="font-style:italic;color:var(--accent)">Surabhi.</em></h2>
+          <p>I turn <b>insights into ideas</b> , <b>ideas into stories</b>, and <b>stories into results</b> that matter. Over the past 3+ years, I've partnered with 15+ brands across <b>6+ industries</b> to craft words that don't just fill space — they convert.</p>
+        </div>
+        <div class="about-preview__highlights">
+          <span class="tag">Copywriting</span>
+          <span class="tag">Brand Strategy</span>
+          <span class="tag">Content Strategy</span>
+          <span class="tag">UGC Scripts</span>
+          <span class="tag">Social Media</span>
+        </div>
+        <a href="about.html" class="btn btn--outline">More About Me →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- What I've Delivered -->
+<section class="section" style="background:var(--cream)">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-header__eyebrow">My Services</p>
+      <h2>What I've Delivered</h2>
+      <p>From brand voice to viral reels, I cover the full creative spectrum.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-card__icon">✍️</div>
+        <h4>Copywriting</h4>
+        <p>Website copy, ad copy, A+ content, product descriptions, and taglines that stop the scroll.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-card__icon">📱</div>
+        <h4>Social Media & Reels</h4>
+        <p>UGC hooks, trend-based reels, influencer scripts, and monthly content calendars for maximum reach.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-card__icon">🎯</div>
+        <h4>Campaign Strategy</h4>
+        <p>Full campaign narratives, live sale events, ad campaigns, and creative briefs that align with brand goals.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-card__icon">📝</div>
+        <h4>Blog & Long-Form</h4>
+        <p>SEO-aware blogs, thought leadership articles, and website hygiene content that builds authority.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- My Work & Ideation (Creative) -->
+<section class="section creative-showcase">
+  <div class="container">
+    <div class="section-header reveal creative-showcase__head">
+      <p class="section-header__eyebrow">Creative Work</p>
+      <h2>My Work &amp; Ideation <span>(Creative)</span></h2>
+      <p>A visual snapshot of campaign concepts and ad creatives. Add final images inside each frame.</p>
+    </div>
+    <div class="creative-grid">
+      <article class="creative-card reveal">
+        <div class="creative-card__frame creative-card__frame--mono">
+          <div class="creative-card__placeholder">
+            <strong>Red Lemon</strong>
+            <span>Chic In Motion</span>
+            <small>Add image here</small>
+          </div>
+          <div class="creative-card__stamp">RL</div>
+        </div>
+        <div class="creative-card__footer" aria-hidden="true">
+          <span>❤</span><span>◯</span><span>➤</span><span>🔖</span>
+        </div>
+      </article>
+      <article class="creative-card reveal">
+        <div class="creative-card__frame creative-card__frame--amber">
+          <div class="creative-card__placeholder">
+            <strong>TAMZY</strong>
+            <span>Shadez 06</span>
+            <small>Add image here</small>
+          </div>
+        </div>
+        <div class="creative-card__footer" aria-hidden="true">
+          <span>❤</span><span>◯</span><span>➤</span><span>🔖</span>
+        </div>
+      </article>
+      <article class="creative-card reveal">
+        <div class="creative-card__frame creative-card__frame--dune">
+          <div class="creative-card__placeholder">
+            <strong><img src="/assets/images/iafa.avif" alt="IAFA"></strong>
+            <span>Meet Dune</span>
+            <small>Add image here</small>
+          </div>
+          <div class="creative-card__stamp">IAFA</div>
+        </div>
+        <div class="creative-card__footer" aria-hidden="true">
+          <span>❤</span><span>◯</span><span>➤</span><span>🔖</span>
+        </div>
+      </article>
+    </div>
+    <div style="text-align:center;margin-top:40px">
+      <a href="projects.html" class="btn btn--primary">View All Projects →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Brands / Clients -->
+<section class="section brands-section">
+  <div class="container">
+    <div class="section-header reveal brands-heading">
+      <p class="section-header__eyebrow">Brand Experience</p>
+      <h2>Brands I've Worked With <span class="brands-heading__note">(Click on brand logo)</span></h2>
+    </div>
+    <div class="brands-board reveal" aria-label="Client brand categories">
+      <article class="brand-category">
+        <h3>Furniture</h3>
+        <div class="brand-category__logos">
+          <a href="https://iafafurniture.com" class="brand-tile"><span><img src="/assets/images/iafa.avif" alt="IAFA"></span></a>
+          <a href="https://www.cottonhome.ae/" class="brand-tile"><span><img src="/assets/images/cottonhomes.jpeg" alt="Cotton Home"></span></a>
+          <a href="https://www.homemonde.in/" class="brand-tile"><span><img src="/assets/images/Homemonde_Logo-02.avif" alt="Homemonde"></span></a>
+        </div>
+      </article>
+     
+      <article class="brand-category">
+        <h3>Food &amp; Grocery</h3>
+        <div class="brand-category__logos">
+          <a href="https://urbanplatter.com/" class="brand-tile"><span><img src="/assets/images/UPLogo.avif" alt="urban platter"></span></a>
+          <a href="https://marveltea.com/" class="brand-tile"><span><img src="/assets/images/tea.avif" alt="Marvel Tea"></span></a>
+        </div>
+      </article>
+      <article class="brand-category">
+        <h3>Fashion &amp; Lifestyle</h3>
+        <div class="brand-category__logos">
+          <a href="https://redlemon-lifestyle.in" class="brand-tile"><span><img src="/assets/images/redlemon.jpeg" alt="Red Lemon"></span></a>
+          <a href="https://tamzy.in" class="brand-tile"><span><img src="/assets/images/TEXT_LOGO.avif"" alt="TAMZY"></span></a>
+          <a href="https://gelanni.co" class="brand-tile"><span><img src="/assets/images/gelanni-logo.webp" alt="GELANNI"></span></a>
+
+        </div>
+      </article>
+      <article class="brand-category">
+        <h3>Healthcare &amp; Hygiene</h3>
+        <div class="brand-category__logos">
+          <a href="https://gononstop.in/" class="brand-tile"><span><img src="/assets/images/logo_nonstop.png" alt="nonstop"></span></a>
+          <a href="https://smilepad.in/" class="brand-tile"><span><img src="/assets/images/SmilePad.webp" alt="Smilepad"></span></a>
+        </div>
+      </article>
+      <article class="brand-category">
+        <h3>Car Accessories</h3>
+        <div class="brand-category__logos">
+            <a href="https://jvcv.in" class="brand-tile"><span><img src="/assets/images/logo_jvc_140x@2x.avif" alt="JVCV"></span></a>
+        </div>
+      </article>
+      <article class="brand-category">
+        <h3>Baby &amp; Kids E-commerce Retail</h3>
+        <div class="brand-category__logos" ">
+          <a href="https://www.firstcry.com/" class="brand-tile brand-tile--feature"><span><img src="/assets/images/fc_logo.png" alt="firstcry" style="width:200px"></span></a>
+        </div>
+      </article>
+      
+      <article class="brand-category">
+        <h3>Jewellery &amp; Accessories</h3>
+        <div class="brand-category__logos">
+          <a href="https://silverare.com" class="brand-tile"><span><img src="/assets/images/Silverare.webp" alt="Silverare"></span></a>
+        </div>
+      </article>
+
+      <article class="brand-category">
+        <h3>Beauty &amp; Personal Care</h3>
+        <div class="brand-category__logos">
+          <a href="https://baeyork.com/" class="brand-tile"><span><img src="/assets/images/Baeyork_Logo_1.png" alt="BAEYORK"></span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials preview -->
+<section class="section" style="background:var(--cream)">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-header__eyebrow">Testimonials</p>
+      <h2>What Brands Say</h2>
+    </div>
+    <div class="testimonial-carousel reveal">
+      <div class="testimonial-track">
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">Surabhi has a rare gift — she understood our brand voice from day one. The copy she wrote for our IAFA chair launch felt like it came from inside our brand. Results spoke for themselves: 923K+ views in a month.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">IA</div>
+            <div>
+              <div class="testimonial-card__name">Marketing Head, IAFA Furniture</div>
+              <div class="testimonial-card__role">Furniture Industry</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">Working with Surabhi on our Red Lemon campaigns was a game changer. Her creative ideation for "Chic in Motion" generated huge engagement and the ad copy was crisp, on-brand, and scroll-stopping.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RL</div>
+            <div>
+              <div class="testimonial-card__name">Founder, Red Lemon Lifestyle</div>
+              <div class="testimonial-card__role">Fashion & Accessories</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">Surabhi's content strategy for our Firstcry campaigns was thorough, insightful, and delivered consistently. She handled multiple briefs simultaneously without missing a beat on quality or timelines.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">FC</div>
+            <div>
+              <div class="testimonial-card__name">Content Team, FirstCry</div>
+              <div class="testimonial-card__role">Baby & Kids E-commerce</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-btn carousel-btn--prev" aria-label="Previous testimonial">←</button>
+      <div class="carousel-dots">
+        <div class="carousel-dot active"></div>
+        <div class="carousel-dot"></div>
+        <div class="carousel-dot"></div>
+      </div>
+      <button class="carousel-btn carousel-btn--next" aria-label="Next testimonial">→</button>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section" style="background:var(--brown-dark);text-align:center">
+  <div class="container">
+    <p style="font-size:0.8rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--taupe);margin-bottom:16px">Ready to create?</p>
+    <h2 style="color:var(--cream);margin-bottom:16px;font-size:clamp(2rem,5vw,3.5rem)">Conversion that<br /><em style="color:var(--taupe)">converts?</em></h2>
+    <p style="color:var(--taupe);max-width:440px;margin:0 auto 40px;font-size:1.05rem">Let's build something that stands out. Drop a message and let's talk strategy.</p>
+    <a href="contact.html" class="btn" style="background:var(--cream);color:var(--brown-dark);font-size:1rem;padding:16px 40px">Get In Touch ↗</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">Surabhi<span> Chourasia</span></div>
+        <p>Copywriter · Creative Strategist · Brand Storyteller</p>
+        <div class="footer__socials">
+          <a href="https://www.linkedin.com/in/surabhi-chourasia" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="mailto:Surbhichourasiya5@gmail.com" class="social-btn" aria-label="Email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <a href="tel:+917999894729" class="social-btn" aria-label="Phone">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.26h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.93a16 16 0 0 0 6.29 6.29l.61-.61a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h5>Pages</h5>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5>Services</h5>
+        <ul class="footer__links">
+          <li><a href="contact.html">Copywriting</a></li>
+          <li><a href="contact.html">Social Media</a></li>
+          <li><a href="contact.html">Campaigns</a></li>
+          <li><a href="contact.html">Blog Writing</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5>Contact</h5>
+        <ul class="footer__links">
+          <li><a href="mailto:Surbhichourasiya5@gmail.com">Surbhichourasiya5@gmail.com</a></li>
+          <li><a href="tel:+917999894729">+91 7999894729</a></li>
+          <li><a href="https://www.linkedin.com/in/surabhi-chourasia" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Surabhi Chourasia. All rights reserved.</p>
+      <div class="footer__bottom-right">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" aria-label="Back to top">↑</button>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/three-hero.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

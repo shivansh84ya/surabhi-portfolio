@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="SaaS case study">
+  <rect width="1200" height="720" fill="#101727" />
+  <rect x="120" y="120" width="960" height="480" rx="36" fill="#1d2b4f" />
+  <rect x="180" y="200" width="420" height="34" rx="17" fill="#7f8cff" />
+  <rect x="180" y="260" width="300" height="24" rx="12" fill="#5eead4" />
+  <rect x="180" y="310" width="640" height="20" rx="10" fill="#6b7590" />
+  <rect x="180" y="350" width="700" height="20" rx="10" fill="#6b7590" />
+  <text x="180" y="550" fill="#f0f4ff" font-size="54" font-family="Inter, Arial, sans-serif">Case Study - SaaS</text>
+</svg>

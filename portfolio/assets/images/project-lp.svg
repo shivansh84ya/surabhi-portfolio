@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Project landing page">
+  <rect width="800" height="500" fill="#121b30" />
+  <rect x="160" y="90" width="480" height="320" rx="14" fill="#f6f8ff" />
+  <rect x="200" y="140" width="280" height="24" rx="12" fill="#7f8cff" />
+  <rect x="200" y="180" width="360" height="14" rx="7" fill="#c4cce8" />
+  <rect x="200" y="205" width="300" height="14" rx="7" fill="#c4cce8" />
+  <rect x="200" y="250" width="150" height="36" rx="18" fill="#5eead4" />
+  <text x="130" y="455" fill="#edf2ff" font-size="42" font-family="Inter, Arial, sans-serif">Project - Landing Pages</text>
+</svg>

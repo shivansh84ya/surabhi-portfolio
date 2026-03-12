@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Project paid media">
+  <rect width="800" height="500" fill="#101727" />
+  <rect x="70" y="70" width="660" height="360" rx="24" fill="#192845" />
+  <text x="110" y="280" fill="#eaf0ff" font-size="44" font-family="Inter, Arial, sans-serif">Project - Paid Campaign</text>
+</svg>

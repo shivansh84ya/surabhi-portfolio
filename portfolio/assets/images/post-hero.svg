@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" role="img" aria-label="Blog post hero image">
+  <defs>
+    <linearGradient id="ph" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7f8cff" />
+      <stop offset="100%" stop-color="#5eead4" />
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="800" fill="#0d1426" />
+  <rect x="180" y="130" width="1040" height="540" rx="34" fill="url(#ph)" opacity="0.55" />
+  <text x="260" y="420" fill="#f2f6ff" font-size="72" font-family="Inter, Arial, sans-serif">Growth Insights Article</text>
+</svg>

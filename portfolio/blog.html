@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Surabhi Patel</title>
+    <meta name="description" content="Marketing strategy, analytics, and growth insights." />
+    <meta property="og:title" content="Blog | Surabhi Patel" />
+    <meta property="og:description" content="Practical articles on paid media, SEO, and conversion." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/blog.html" />
+    <meta property="og:image" content="https://example.com/assets/images/og-cover.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="blog">
+    <a class="sr-only" href="#main-content">Skip to content</a>
+    <div id="site-header"></div>
+
+    <main id="main-content">
+      <section class="section">
+        <div class="container reveal">
+          <span class="badge">Blog</span>
+          <h1 class="section-title">Insights for modern growth teams</h1>
+          <p class="section-lead">Actionable perspectives on performance marketing, creative strategy, and analytics clarity.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="grid grid-2 reveal" style="margin-bottom: 1.2rem;">
+            <label>
+              <span class="sr-only">Search blog posts</span>
+              <input id="blog-search" class="search-input" type="search" placeholder="Search posts..." />
+            </label>
+            <label>
+              <span class="sr-only">Filter by category</span>
+              <select id="blog-category" class="search-input">
+                <option value="all">All Categories</option>
+                <option value="paid-ads">Paid Ads</option>
+                <option value="seo">SEO</option>
+                <option value="email">Email</option>
+                <option value="analytics">Analytics</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="grid grid-3">
+            <article class="card reveal" data-post data-title="How to structure a high-performing paid media test cycle" data-category="paid-ads">
+              <span class="badge">Paid Ads</span>
+              <h3>How to structure a high-performing paid media test cycle</h3>
+              <p>Move from random experiments to an organized testing backlog that compounds results over time.</p>
+              <a class="btn btn-secondary" href="post.html">Read article</a>
+            </article>
+            <article class="card reveal" data-post data-title="SEO content systems that scale without sacrificing quality" data-category="seo">
+              <span class="badge">SEO</span>
+              <h3>SEO content systems that scale without sacrificing quality</h3>
+              <p>A practical approach to topic clusters, intent mapping, and content refresh routines.</p>
+              <a class="btn btn-secondary" href="post.html">Read article</a>
+            </article>
+            <article class="card reveal" data-post data-title="Email flows every ecommerce brand should launch first" data-category="email">
+              <span class="badge">Email</span>
+              <h3>Email flows every ecommerce brand should launch first</h3>
+              <p>The 5 automation sequences that consistently influence retention and repeat purchase.</p>
+              <a class="btn btn-secondary" href="post.html">Read article</a>
+            </article>
+            <article class="card reveal" data-post data-title="GA4 dashboards that actually help decision-making" data-category="analytics">
+              <span class="badge">Analytics</span>
+              <h3>GA4 dashboards that actually help decision-making</h3>
+              <p>Design executive-friendly views that tie channel data to pipeline and revenue outcomes.</p>
+              <a class="btn btn-secondary" href="post.html">Read article</a>
+            </article>
+            <article class="card reveal" data-post data-title="Creative strategy for lower-funnel social campaigns" data-category="paid-ads">
+              <span class="badge">Paid Ads</span>
+              <h3>Creative strategy for lower-funnel social campaigns</h3>
+              <p>Frameworks to map message angles by audience awareness stage and conversion intent.</p>
+              <a class="btn btn-secondary" href="post.html">Read article</a>
+            </article>
+            <article class="card reveal" data-post data-title="Using attribution windows without fooling your team" data-category="analytics">
+              <span class="badge">Analytics</span>
+              <h3>Using attribution windows without fooling your team</h3>
+              <p>How to set expectations and interpret directional metrics with better strategic confidence.</p>
+              <a class="btn btn-secondary" href="post.html">Read article</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

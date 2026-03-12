@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Project SEO">
+  <rect width="800" height="500" fill="#121b31" />
+  <circle cx="260" cy="220" r="120" fill="#5eead4" opacity="0.36" />
+  <rect x="350" y="150" width="280" height="22" rx="11" fill="#a6b3d8" />
+  <rect x="350" y="195" width="220" height="18" rx="9" fill="#a6b3d8" />
+  <rect x="350" y="232" width="260" height="18" rx="9" fill="#a6b3d8" />
+  <text x="90" y="430" fill="#eaf0ff" font-size="44" font-family="Inter, Arial, sans-serif">Project - SEO Growth</text>
+</svg>

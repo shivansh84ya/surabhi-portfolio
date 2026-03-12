@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Project funnel">
+  <rect width="800" height="500" fill="#0f1524" />
+  <polygon points="160,100 640,100 500,340 300,340" fill="#7f8cff" opacity="0.5" />
+  <text x="160" y="430" fill="#eaf0ff" font-size="42" font-family="Inter, Arial, sans-serif">Project - Funnel Optimization</text>
+</svg>

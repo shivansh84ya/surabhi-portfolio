@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Project social campaign">
+  <rect width="800" height="500" fill="#11172b" />
+  <circle cx="240" cy="230" r="80" fill="#7f8cff" opacity="0.8" />
+  <circle cx="400" cy="230" r="80" fill="#5eead4" opacity="0.8" />
+  <circle cx="560" cy="230" r="80" fill="#9a95ff" opacity="0.8" />
+  <text x="140" y="430" fill="#edf2ff" font-size="42" font-family="Inter, Arial, sans-serif">Project - Social Growth</text>
+</svg>

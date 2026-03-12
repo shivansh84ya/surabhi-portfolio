@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Project email">
+  <rect width="800" height="500" fill="#111a2b" />
+  <rect x="130" y="120" width="540" height="280" rx="20" fill="#1e2d4a" />
+  <polyline points="130,140 400,290 670,140" fill="none" stroke="#7f8cff" stroke-width="14" />
+  <text x="170" y="450" fill="#ecf2ff" font-size="42" font-family="Inter, Arial, sans-serif">Project - Email Automation</text>
+</svg>

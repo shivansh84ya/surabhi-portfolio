@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Project analytics audit">
+  <rect width="800" height="500" fill="#0f1628" />
+  <rect x="130" y="90" width="540" height="320" rx="22" fill="#1d2a45" />
+  <rect x="190" y="300" width="50" height="70" fill="#5eead4" />
+  <rect x="280" y="250" width="50" height="120" fill="#7f8cff" />
+  <rect x="370" y="220" width="50" height="150" fill="#9a95ff" />
+  <rect x="460" y="170" width="50" height="200" fill="#5eead4" />
+  <text x="130" y="455" fill="#edf2ff" font-size="42" font-family="Inter, Arial, sans-serif">Project - Analytics Audit</text>
+</svg>

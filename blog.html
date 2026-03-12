@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Surabhi Chourasia</title>
+  <meta name="description" content="Read Surabhi Chourasia's thoughts on copywriting, brand strategy, content marketing, and what makes words convert." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="page-transition" aria-hidden="true"></div>
+
+<nav class="navbar" aria-label="Main navigation">
+  <div class="container">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo">SC<span>.</span></a>
+      <ul class="navbar__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="navbar__actions">
+        <button class="theme-toggle" aria-label="Toggle dark mode"></button>
+        <a href="contact.html" class="btn-cta">Let's Talk</a>
+        <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu" role="dialog">
+  <a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+</div>
+
+<!-- Page Header -->
+<section style="padding:140px 0 64px;background:var(--warm-white)">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-header__eyebrow" style="display:inline-flex;align-items:center;gap:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);margin-bottom:12px"><span style="display:block;width:24px;height:2px;background:var(--accent)"></span>Thoughts & Insights</p>
+      <h1 style="font-size:clamp(2.5rem,7vw,5rem);margin-bottom:16px">The <em style="color:var(--accent)">Blog</em></h1>
+      <p style="font-size:1.05rem;color:var(--text-secondary);max-width:480px">Words about words. Thoughts on brand storytelling, content strategy, copywriting craft, and what makes communication actually convert.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <!-- Search + Filter -->
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:40px">
+      <div class="blog-search">
+        <input type="search" placeholder="Search articles..." aria-label="Search blog posts" />
+        <button class="btn btn--ghost" style="padding:12px 20px;font-size:0.88rem;border-radius:var(--radius-pill)">Search</button>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="copywriting">Copywriting</button>
+        <button class="filter-btn" data-filter="strategy">Strategy</button>
+        <button class="filter-btn" data-filter="social">Social Media</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+      </div>
+    </div>
+
+    <!-- Featured post -->
+    <div class="reveal" style="margin-bottom:48px">
+      <a href="post.html" style="display:grid;grid-template-columns:1fr 1fr;gap:0;background:var(--warm-white);border:1px solid var(--taupe-light);border-radius:var(--radius-lg);overflow:hidden;transition:all 0.35s" class="featured-post">
+        <div style="aspect-ratio:unset;background:linear-gradient(135deg,var(--brown-dark) 0%,var(--accent) 100%);padding:48px;display:flex;flex-direction:column;justify-content:flex-end;min-height:320px">
+          <span class="tag tag--dark" style="width:fit-content;margin-bottom:16px;background:rgba(255,255,255,0.15);color:var(--cream)">✦ Featured</span>
+          <h2 style="color:var(--cream);font-size:clamp(1.5rem,3vw,2.2rem);margin-bottom:12px;line-height:1.2">Why the First Line of Your Copy is Worth 80% of the Effort</h2>
+          <p style="color:var(--taupe);font-size:0.9rem">The hook is everything. Here's the framework I use to craft opening lines that make readers stop scrolling.</p>
+        </div>
+        <div style="padding:48px;display:flex;flex-direction:column;justify-content:space-between">
+          <div>
+            <div style="display:flex;gap:10px;margin-bottom:20px;flex-wrap:wrap">
+              <span class="tag tag--accent">Copywriting</span>
+              <span class="tag">6 min read</span>
+            </div>
+            <p style="font-size:0.95rem;line-height:1.8;margin-bottom:0">Attention is the scarcest resource in 2026. Every brand is competing for the same eyeballs on the same feeds. The difference between a scroll and a stop? The first sentence. I've spent 3+ years testing, refining, and studying what makes that first line land — and this is everything I know...</p>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-top:24px;padding-top:24px;border-top:1px solid var(--taupe-light)">
+            <div style="display:flex;align-items:center;gap:12px">
+              <div style="width:36px;height:36px;border-radius:50%;background:var(--sand);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-weight:700;font-size:0.9rem;color:var(--brown-mid)">SC</div>
+              <div>
+                <div style="font-weight:600;font-size:0.88rem;color:var(--brown-dark)">Surabhi Chourasia</div>
+                <div style="font-size:0.75rem;color:var(--text-muted)">Feb 28, 2026</div>
+              </div>
+            </div>
+            <span style="font-size:0.85rem;font-weight:700;color:var(--accent)">Read →</span>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Blog grid -->
+    <div class="blog-grid">
+      <article class="blog-card reveal" data-category="copywriting">
+        <div class="blog-card__thumb">
+          <div class="blog-card__thumb-placeholder" style="background:linear-gradient(135deg,var(--sand),var(--taupe))">✍️</div>
+        </div>
+        <div class="blog-card__body">
+          <div class="blog-card__meta">
+            <span class="tag tag--accent">Copywriting</span>
+            <span class="blog-card__date">Feb 15, 2026</span>
+          </div>
+          <h4><a href="post.html">5 Ad Copy Formulas That Actually Convert in 2026</a></h4>
+          <p>The marketing landscape has changed. Here are the frameworks still working for e-commerce brands right now, with real examples from brand campaigns I've worked on.</p>
+        </div>
+      </article>
+
+      <article class="blog-card reveal" data-category="social">
+        <div class="blog-card__thumb">
+          <div class="blog-card__thumb-placeholder" style="background:linear-gradient(135deg,#E84300,#FF9B60)">📱</div>
+        </div>
+        <div class="blog-card__body">
+          <div class="blog-card__meta">
+            <span class="tag">Social Media</span>
+            <span class="blog-card__date">Feb 10, 2026</span>
+          </div>
+          <h4><a href="post.html">How I Generated 923K+ Views in 30 Days for an Instagram Page</a></h4>
+          <p>A breakdown of the content strategy, reel hooks, and ad copy approach I used to drive nearly a million views for IAFA Furniture's Instagram in one month.</p>
+        </div>
+      </article>
+
+      <article class="blog-card reveal" data-category="branding">
+        <div class="blog-card__thumb">
+          <div class="blog-card__thumb-placeholder" style="background:linear-gradient(135deg,var(--brown-dark),var(--brown-mid))">🎯</div>
+        </div>
+        <div class="blog-card__body">
+          <div class="blog-card__meta">
+            <span class="tag">Branding</span>
+            <span class="blog-card__date">Jan 30, 2026</span>
+          </div>
+          <h4><a href="post.html">Finding a Brand Voice: The Process I Use With Every New Client</a></h4>
+          <p>Brand voice is not a tone guide document. It's a living, breathing personality. Here's the discovery process I've refined working with 15+ brands across very different industries.</p>
+        </div>
+      </article>
+
+      <article class="blog-card reveal" data-category="strategy">
+        <div class="blog-card__thumb">
+          <div class="blog-card__thumb-placeholder" style="background:linear-gradient(135deg,#1A5276,#2E86C1)">📊</div>
+        </div>
+        <div class="blog-card__body">
+          <div class="blog-card__meta">
+            <span class="tag tag--accent">Strategy</span>
+            <span class="blog-card__date">Jan 20, 2026</span>
+          </div>
+          <h4><a href="post.html">Content Calendar vs. Content Strategy: Why Most Brands Get This Wrong</a></h4>
+          <p>A calendar is what you post. A strategy is why you post it. Most brands have the first, skip the second, then wonder why engagement is flat.</p>
+        </div>
+      </article>
+
+      <article class="blog-card reveal" data-category="copywriting">
+        <div class="blog-card__thumb">
+          <div class="blog-card__thumb-placeholder" style="background:linear-gradient(135deg,var(--accent),var(--brown-light))">🛒</div>
+        </div>
+        <div class="blog-card__body">
+          <div class="blog-card__meta">
+            <span class="tag tag--accent">Copywriting</span>
+            <span class="blog-card__date">Jan 12, 2026</span>
+          </div>
+          <h4><a href="post.html">A+ Content on Amazon: What Makes the Difference Between a Browse and a Buy</a></h4>
+          <p>After writing A+ content for brands in furniture, healthcare, and food, I've cracked what separates content that educates from content that converts.</p>
+        </div>
+      </article>
+
+      <article class="blog-card reveal" data-category="social">
+        <div class="blog-card__thumb">
+          <div class="blog-card__thumb-placeholder" style="background:linear-gradient(135deg,#154360,#1ABC9C)">🎬</div>
+        </div>
+        <div class="blog-card__body">
+          <div class="blog-card__meta">
+            <span class="tag">Social Media</span>
+            <span class="blog-card__date">Jan 5, 2026</span>
+          </div>
+          <h4><a href="post.html">The UGC Hook Formula That's Dominating Instagram Reels Right Now</a></h4>
+          <p>First 3 seconds. That's all you have. Here's the exact hook structure I use when writing UGC scripts — and why it works for audiences from Gen-Z to millennials.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div><div class="footer__brand-name">Surabhi<span> Chourasia</span></div><p>Copywriter · Creative Strategist · Brand Storyteller</p></div>
+      <div class="footer__col"><h5>Pages</h5><ul class="footer__links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer__col"><h5>Contact</h5><ul class="footer__links"><li><a href="mailto:Surbhichourasiya5@gmail.com">Email Me</a></li><li><a href="tel:+917999894729">+91 7999894729</a></li></ul></div>
+    </div>
+    <div class="footer__bottom"><p>© 2026 Surabhi Chourasia. All rights reserved.</p></div>
+  </div>
+</footer>
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="js/main.js"></script>
+<style>
+.featured-post:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+@media (max-width: 768px) { .featured-post { grid-template-columns: 1fr !important; } }
+</style>
+</body>
+</html>
