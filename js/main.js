@@ -58,6 +58,23 @@
         document.body.style.overflow = '';
       });
     });
+
+   /* ── Section doodles (site-wide, behind content) ── */
+   const doodleTargets = document.querySelectorAll('section:not(.hero), .stats-bar, .footer');
+   doodleTargets.forEach((block, idx) => {
+     if (block.querySelector(':scope > .section-doodles')) return;
+     block.classList.add('doodle-zone');
+
+     const doodles = document.createElement('div');
+     doodles.className = `section-doodles ${idx % 2 ? 'section-doodles--alt' : ''}`.trim();
+     doodles.setAttribute('aria-hidden', 'true');
+     doodles.innerHTML = `
+       <span class="section-doodle section-doodle--ring"></span>
+       <span class="section-doodle section-doodle--stroke"></span>
+       <span class="section-doodle section-doodle--dot"></span>
+     `;
+     block.appendChild(doodles);
+   });
   
    /* ── Scroll reveal (IntersectionObserver) ── */
    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -101,6 +118,7 @@
    if (!prefersReducedMotion) {
      const floatElements = [
        ...document.querySelectorAll('.hero__doodles .doodle'),
+       ...document.querySelectorAll('.hero__photo-wrap, .hero__media-badge, .hero__media-doodle'),
        ...document.querySelectorAll('.hero__scroll')
      ];
      floatElements.forEach((el) => el.classList.add('scroll-float'));

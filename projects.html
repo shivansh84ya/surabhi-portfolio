@@ -23,7 +23,7 @@
       </ul>
       <div class="navbar__actions">
         <button class="theme-toggle" aria-label="Toggle dark mode"></button>
-        <a href="contact.html" class="btn-cta">Let's Talk</a>
+        <a href="https://wa.me/917999894729?text=Hi%20Surabhi%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." class="btn-cta" target="_blank" rel="noopener">Let's Talk</a>
         <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
       </div>
     </div>
@@ -34,12 +34,23 @@
 </div>
 
 <!-- Page Header -->
-<section style="padding:140px 0 64px;background:var(--warm-white)">
+<section class="projects-hero">
   <div class="container">
-    <div class="reveal">
-      <p class="section-header__eyebrow" style="display:inline-flex;align-items:center;gap:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);margin-bottom:12px"><span style="display:block;width:24px;height:2px;background:var(--accent);border-radius:2px"></span>Portfolio</p>
-      <h1 style="font-size:clamp(2.5rem,7vw,5rem);margin-bottom:16px">My Work &<br /><em style="color:var(--accent)">Ideation</em></h1>
-      <p style="font-size:1.05rem;color:var(--text-secondary);max-width:520px">Creative work, campaigns, and content built for real brands across 6+ industries. Each piece crafted with strategy, not just style.</p>
+    <div class="projects-hero__grid">
+     
+      <div class="projects-hero__content reveal" data-reveal="right">
+        <p class="section-header__eyebrow">Portfolio</p>
+        <h1>My Work &<br /><em>Ideation</em></h1>
+        <p>Creative work, campaigns, and content built for real brands across 6+ industries. Each piece crafted with strategy, not just style.</p>
+      </div>
+      <div class="projects-hero__media reveal" data-reveal="left">
+        <div>
+          <img src="/assets/images/blogImg.png" alt="A bit of a mess but doing my best" class="projects-hero__img" />
+          <span class="projects-hero__media-doodle projects-hero__media-doodle--ring" aria-hidden="true"></span>
+          <span class="projects-hero__media-doodle projects-hero__media-doodle--spark" aria-hidden="true"></span>
+          <span class="projects-hero__media-doodle projects-hero__media-doodle--dot" aria-hidden="true"></span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -279,14 +290,14 @@
     <div style="background:var(--warm-white);border:1px solid var(--taupe-light);border-radius:var(--radius-lg);padding:40px;margin-bottom:32px" class="reveal">
       <h3 style="margin-bottom:24px;color:var(--brown-dark)">Brands I've Written Blogs For:</h3>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px">
-        <a href="#" class="brand-logo" style="display:flex;align-items:center;justify-content:center;padding:14px 20px;background:var(--sand);border-radius:var(--radius-md);font-family:'Playfair Display',serif;font-weight:700;color:var(--brown-mid);border:1px solid var(--taupe-light);transition:all 0.35s;text-align:center">Urban Platter</a>
-        <a href="#" class="brand-logo">GoNon Stop</a>
-        <a href="#" class="brand-logo">IAFA Furniture</a>
-        <a href="#" class="brand-logo">Cotton Homes</a>
-        <a href="#" class="brand-logo">TAMZY</a>
-        <a href="#" class="brand-logo">Smilepad</a>
-        <a href="#" class="brand-logo">Homemonde</a>
-        <a href="#" class="brand-logo">Marvel Tea</a>
+        <a href="https://urbanplatter.com/" class="brand-logo" target="_blank" rel="noopener"><img src="/assets/images/UPLogo.avif" alt="Urban Platter" style="max-width:100%;max-height:42px;object-fit:contain"></a>
+        <a href="https://gononstop.in/" class="brand-logo" target="_blank" rel="noopener"><img src="/assets/images/logo_nonstop.png" alt="GoNon Stop" style="max-width:100%;max-height:42px;object-fit:contain"></a>
+        <a href="https://iafafurniture.com" class="brand-logo" target="_blank" rel="noopener"><img src="/assets/images/iafa.avif" alt="IAFA Furniture" style="max-width:100%;max-height:42px;object-fit:contain"></a>
+        <a href="https://www.cottonhome.ae/" class="brand-logo" target="_blank" rel="noopener"><img src="/assets/images/cottonhomes.jpeg" alt="Cotton Homes" style="max-width:100%;max-height:42px;object-fit:contain"></a>
+        <a href="https://tamzy.in" class="brand-logo" target="_blank" rel="noopener"><img src="/assets/images/TEXT_LOGO.avif" alt="TAMZY" style="max-width:100%;max-height:42px;object-fit:contain"></a>
+        <a href="https://smilepad.in/" class="brand-logo" target="_blank" rel="noopener"><img src="/assets/images/SmilePad.webp" alt="Smilepad" style="max-width:100%;max-height:42px;object-fit:contain"></a>
+        <a href="https://www.homemonde.in/" class="brand-logo" target="_blank" rel="noopener"><img src="/assets/images/Homemonde_Logo-02.avif" alt="Homemonde" style="max-width:100%;max-height:42px;object-fit:contain"></a>
+        <a href="https://marveltea.com/" class="brand-logo" target="_blank" rel="noopener"><img src="/assets/images/tea.avif" alt="Marvel Tea" style="max-width:100%;max-height:42px;object-fit:contain"></a>
       </div>
     </div>
 
@@ -315,8 +326,38 @@
 <button class="back-to-top" aria-label="Back to top">↑</button>
 <script src="js/main.js"></script>
 <style>
-.brand-logo { display:flex;align-items:center;justify-content:center;padding:14px 20px;background:var(--sand);border-radius:var(--radius-md);font-family:'Playfair Display',serif;font-weight:700;color:var(--brown-mid);border:1px solid var(--taupe-light);transition:all 0.35s;text-align:center;cursor:pointer; }
-.brand-logo:hover { background:var(--brown-dark);color:var(--cream); }
+.brand-logo {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:14px 20px;
+  background:var(--sand);
+  border-radius:var(--radius-md);
+  font-family:'Playfair Display',serif;
+  font-weight:700;
+  color:var(--brown-mid);
+  border:1px solid var(--taupe-light);
+  transition:all 0.35s;
+  text-align:center;
+  cursor:pointer;
+}
+.brand-logo img {
+  max-width: 100%;
+  max-height: 42px;
+  object-fit: contain;
+}
+.brand-logo:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 18px rgba(44,31,15,0.12);
+}
+[data-theme="dark"] .brand-logo {
+  background: #fffdf8;
+  border-color: rgba(196,168,130,0.45);
+}
+[data-theme="dark"] .brand-logo:hover {
+  background: #fff;
+  border-color: rgba(196,168,130,0.6);
+}
 </style>
 </body>
 </html>
